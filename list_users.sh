@@ -1,4 +1,13 @@
 #!/bin/bash
+##########
+#Author :Devesh
+#Version :v1
+#This script returns the users who are having access to a file
+
+set -e
+set -x
+set -o pipefail
+
 
 # GitHub API URL
 API_URL="https://api.github.com"
